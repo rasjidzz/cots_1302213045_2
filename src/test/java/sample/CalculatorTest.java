@@ -27,7 +27,7 @@ public class CalculatorTest {
         int bil2 = 20;
         Calculator calcu = new Calculator();
         calcu.penjumlahan(bil1, bil2);
-        assertEquals(30, calcu.getHasil());
+        assertEquals(22, calcu.getHasil());
     }
 
     @org.junit.jupiter.api.Test
